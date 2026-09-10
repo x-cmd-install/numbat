@@ -38,7 +38,7 @@ Total: **31,374** lines of code across **109** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,683 · **Forks**: 115 · **Open issues**: 430 · **Contributors**: 49
+- **Stars**: 2,684 · **Forks**: 115 · **Open issues**: 430 · **Contributors**: 49
 
 ## Totals (cumulative)
 
@@ -107,4 +107,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:47:20Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:00:50Z._
