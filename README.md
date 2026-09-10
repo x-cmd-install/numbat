@@ -12,6 +12,18 @@ A statically typed programming language for scientific computations with first c
 x install numbat
 ```
 
+## Code insight
+
+Total: **31,374** lines of code across **109** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 26,508 | 689 | 3,409 | 92 |
+| Json | 2,721 | 0 | 0 | 4 |
+| Css | 404 | 37 | 102 | 4 |
+| Python | 397 | 25 | 62 | 2 |
+| JavaScript | 391 | 67 | 66 | 7 |
+
 ## Source
 
 - **Upstream**: <https://github.com/sharkdp/numbat>
@@ -23,7 +35,6 @@ x install numbat
 - **Latest**: `v1.24.0` (2026-08-23)
 - **Last commit**: 2026-08-25
 - **Assets in release**: 21
-- **Published**: 2026-08-23T19:38:32Z
 
 ## Popularity
 
@@ -38,28 +49,62 @@ x install numbat
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 2 | 4 | 0 | 0 | 6 |
+| last60d | 2026-07-12 | 1 | 4 | 4 | 3 | 0 | 8 |
 | 90d | 2026-06-12 | 1 | 6 | 4 | 6 | 0 | 10 |
+| last180d | 2026-03-14 | 1 | 7 | 6 | 9 | 5 | 12 |
 | 360d | 2025-09-15 | 8 | 62 | 13 | 26 | 12 | 191 |
+| last720d | 2024-09-20 | 11 | 145 | 18 | 79 | 33 | 528 |
 
-## Code size
+## Release assets
 
-Total: **31,374** lines of code across **109** files in the top 5 languages.
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [numbat-musl_1.24.0_amd64.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-musl_1.24.0_amd64.deb) | 2.3 MiB | `runtime/deb/amd64` |
+| [numbat-musl_1.24.0_arm64.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-musl_1.24.0_arm64.deb) | 2.2 MiB | `runtime/deb/arm64` |
+| [numbat-musl_1.24.0_armhf.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-musl_1.24.0_armhf.deb) | 2.3 MiB | `runtime/deb/armhf` |
+| [numbat-musl_1.24.0_i686.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-musl_1.24.0_i686.deb) | 2.3 MiB | `other` |
+| [numbat-v1.24.0-aarch64-apple-darwin.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-aarch64-apple-darwin.tar.gz) | 2.4 MiB | `native/darwin/arm64` |
+| [numbat-v1.24.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-aarch64-unknown-linux-gnu.tar.gz) | 2.5 MiB | `native/linux/arm64/glibc` |
+| [numbat-v1.24.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-aarch64-unknown-linux-musl.tar.gz) | 2.6 MiB | `native/linux/arm64/musl` |
+| [numbat-v1.24.0-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-arm-unknown-linux-gnueabihf.tar.gz) | 2.6 MiB | `native/linux/arm/glibc` |
+| [numbat-v1.24.0-arm-unknown-linux-musleabihf.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-arm-unknown-linux-musleabihf.tar.gz) | 2.7 MiB | `native/linux/arm/musl` |
+| [numbat-v1.24.0-i686-pc-windows-msvc.zip](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-i686-pc-windows-msvc.zip) | 2.4 MiB | `native/win/x64` |
+| [numbat-v1.24.0-i686-unknown-linux-gnu.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-i686-unknown-linux-gnu.tar.gz) | 2.8 MiB | `native/linux/x86/glibc` |
+| [numbat-v1.24.0-i686-unknown-linux-musl.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-i686-unknown-linux-musl.tar.gz) | 2.7 MiB | `native/linux/x86/musl` |
+| [numbat-v1.24.0-x86_64-apple-darwin.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-apple-darwin.tar.gz) | 2.6 MiB | `native/darwin/x64` |
+| [numbat-v1.24.0-x86_64-pc-windows-msvc.zip](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-pc-windows-msvc.zip) | 2.7 MiB | `native/win/x64` |
+| [numbat-v1.24.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-unknown-linux-gnu.tar.gz) | 2.7 MiB | `native/linux/x64/glibc` |
+| [numbat-v1.24.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-unknown-linux-musl.tar.gz) | 2.8 MiB | `native/linux/x64/musl` |
+| [numbat-vscode-extension-v0.1.1.vsix](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-vscode-extension-v0.1.1.vsix) | 64.5 KiB | `other` |
+| [numbat_1.24.0_amd64.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_amd64.deb) | 2.3 MiB | `runtime/deb/amd64` |
+| [numbat_1.24.0_arm64.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_arm64.deb) | 2.1 MiB | `runtime/deb/arm64` |
+| [numbat_1.24.0_armhf.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_armhf.deb) | 2.2 MiB | `runtime/deb/armhf` |
+| [numbat_1.24.0_i686.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_i686.deb) | 2.3 MiB | `other` |
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 26,508 | 689 | 3,409 | 92 |
-| Json | 2,721 | 0 | 0 | 4 |
-| Css | 404 | 37 | 102 | 4 |
-| Python | 397 | 25 | 62 | 2 |
-| JavaScript | 391 | 67 | 66 | 7 |
+## Distribution status
+
+Reported by **46** distros on [repology.org](https://repology.org/project/numbat). **17** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.11.0` | ⚠️ outdated |
+| Debian 14 | `1.11.0` | ⚠️ outdated |
+| Debian 13 | `1.11.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.11.0` | ⚠️ outdated |
+| Arch | `1.24.0` | ✅ latest |
+| Homebrew | `1.24.0` | ✅ latest |
+| Nix unstable | `1.24.0` | ✅ latest |
+| Void | `1.24.0` | ✅ latest |
+| Alpine edge | `1.23.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.23.0` | ⚠️ outdated |
 
 ## Improve this data
 
 Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `numbat` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/numbat.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/numbat.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:16:21Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:47:20Z._
