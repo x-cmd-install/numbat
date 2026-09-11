@@ -368,7 +368,7 @@
     - numbat-debugsource
   visiblename: numbat
   version: 1.23.0
-  origversion: 1.23.0-12.3
+  origversion: 1.23.0-12.5
   status: outdated
   summary: Statically typed programming language for scientific computations
   licenses:
@@ -383,7 +383,7 @@
     - numbat-debugsource
   visiblename: numbat
   version: 1.23.0
-  origversion: 1.23.0-12.5
+  origversion: 1.23.0-12.6
   status: outdated
   summary: Statically typed programming language for scientific computations
   licenses:
