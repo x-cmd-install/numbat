@@ -38,7 +38,7 @@ x install numbat
 
 ## 流行度
 
-- **Star**: 2,685 · **Fork**: 115 · **开放 issue**: 430 · **贡献者**: 49
+- **Star**: 2,686 · **Fork**: 115 · **开放 issue**: 430 · **贡献者**: 49
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install numbat
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 2 | 5 | 0 | 0 | 6 |
-| last60d | 2026-07-15 | 1 | 4 | 5 | 2 | 0 | 8 |
-| 90d | 2026-06-15 | 1 | 6 | 5 | 6 | 0 | 10 |
-| last180d | 2026-03-17 | 1 | 7 | 7 | 9 | 5 | 12 |
-| 360d | 2025-09-18 | 8 | 62 | 14 | 26 | 12 | 191 |
-| last720d | 2024-09-23 | 11 | 144 | 19 | 76 | 33 | 520 |
+| 30d | 2026-08-15 | 1 | 2 | 5 | 0 | 0 | 6 |
+| last60d | 2026-07-16 | 1 | 4 | 5 | 2 | 0 | 8 |
+| 90d | 2026-06-16 | 1 | 6 | 5 | 6 | 0 | 10 |
+| last180d | 2026-03-18 | 1 | 7 | 7 | 9 | 5 | 12 |
+| 360d | 2025-09-19 | 8 | 62 | 14 | 26 | 12 | 191 |
+| last720d | 2024-09-24 | 11 | 143 | 19 | 76 | 33 | 520 |
 
 ## Release 资产
 
@@ -81,23 +81,6 @@ x install numbat
 | [numbat_1.24.0_armhf.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_armhf.deb) | 2.2 MiB | `runtime/deb/armhf` |
 | [numbat_1.24.0_i686.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_i686.deb) | 2.3 MiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/numbat) 上共有 **46** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**27** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.11.0` | ⚠️ outdated |
-| Debian 14 | `1.11.0` | ⚠️ outdated |
-| Debian 13 | `1.11.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.11.0` | ⚠️ outdated |
-| Arch | `1.24.0` | ✅ latest |
-| Homebrew | `1.24.0` | ✅ latest |
-| Nix unstable | `1.24.0` | ✅ latest |
-| Void | `1.24.0` | ✅ latest |
-| Alpine edge | `1.23.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.23.0` | ⚠️ outdated |
-
 ## 改进这些数据
 
 numbat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `numbat` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -107,4 +90,4 @@ numbat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:25:02Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:24:26Z._
