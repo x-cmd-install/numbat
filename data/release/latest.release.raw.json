@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2292958,
       "digest": "sha256:9c8222547182b50b5e356bd4c168a139ef71e16023cd3cc538de5acbd5df8628",
-      "download_count": 6,
+      "download_count": 7,
       "created_at": "2026-08-23T19:42:02Z",
       "updated_at": "2026-08-23T19:42:02Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-musl_1.24.0_arm64.deb"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2554242,
       "digest": "sha256:947e0d6e2dbff56a3d6c85282787b62013502a6d35d317d919e09f620433d177",
-      "download_count": 141,
+      "download_count": 143,
       "created_at": "2026-08-23T19:41:10Z",
       "updated_at": "2026-08-23T19:41:10Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-aarch64-apple-darwin.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2628310,
       "digest": "sha256:653947b17c885496549a823e69a9422e0b94182c07deabd321e9dc8fd2621bc9",
-      "download_count": 65,
+      "download_count": 74,
       "created_at": "2026-08-23T19:41:59Z",
       "updated_at": "2026-08-23T19:42:00Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-aarch64-unknown-linux-gnu.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2718540,
       "digest": "sha256:c6ceb781a860ea0aa3369b37c9503b20068034e2eaf70388d898a2e679410148",
-      "download_count": 37,
+      "download_count": 38,
       "created_at": "2026-08-23T19:42:02Z",
       "updated_at": "2026-08-23T19:42:02Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-aarch64-unknown-linux-musl.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2541656,
       "digest": "sha256:4da4f091500d4c2d11b6e8174cdf2605257274944ed0b25ce98ed59f65a52ae5",
-      "download_count": 48,
+      "download_count": 51,
       "created_at": "2026-08-23T19:45:16Z",
       "updated_at": "2026-08-23T19:45:16Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-i686-pc-windows-msvc.zip"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 2906173,
       "digest": "sha256:f306072065e48439326b82e9868bdfa02e3fa4435bda5a1e91a0535276a3c161",
-      "download_count": 4,
+      "download_count": 5,
       "created_at": "2026-08-23T19:42:19Z",
       "updated_at": "2026-08-23T19:42:20Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-i686-unknown-linux-gnu.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2879066,
       "digest": "sha256:d2e9a4eedb150863a76abee6938b6f80979eaa9263fe9659b9e7d070b3e52c3b",
-      "download_count": 27,
+      "download_count": 28,
       "created_at": "2026-08-23T19:42:39Z",
       "updated_at": "2026-08-23T19:42:40Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-i686-unknown-linux-musl.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 2738337,
       "digest": "sha256:5894c60d674732a4fccfdc248539f101c8e2944805505f3f7591ed588cd84ef1",
-      "download_count": 67,
+      "download_count": 69,
       "created_at": "2026-08-23T19:42:11Z",
       "updated_at": "2026-08-23T19:42:11Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-apple-darwin.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 2791968,
       "digest": "sha256:450027111a5df0dd3ee4ce97a557c4847fc76b05851fccb9e26e875433084049",
-      "download_count": 308,
+      "download_count": 311,
       "created_at": "2026-08-23T19:44:28Z",
       "updated_at": "2026-08-23T19:44:29Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-pc-windows-msvc.zip"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 2844433,
       "digest": "sha256:ed45b8bce7b1b92d68ef8685ddeb17d5378749f34148d8ecc1384cdfeebc8620",
-      "download_count": 1017,
+      "download_count": 1071,
       "created_at": "2026-08-23T19:42:01Z",
       "updated_at": "2026-08-23T19:42:02Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-unknown-linux-gnu.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 2933484,
       "digest": "sha256:2025bc4196774336b774c1f7a9c6f45a003b9b2cbac62e577809ddd3a431c9ca",
-      "download_count": 112,
+      "download_count": 114,
       "created_at": "2026-08-23T19:42:04Z",
       "updated_at": "2026-08-23T19:42:04Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-v1.24.0-x86_64-unknown-linux-musl.tar.gz"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 66070,
       "digest": "sha256:59d397aed28ed278d067880510f18a7d53f5997e4d8eeda12833c2a881fce40a",
-      "download_count": 9,
+      "download_count": 10,
       "created_at": "2026-08-23T19:38:32Z",
       "updated_at": "2026-08-23T19:38:32Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-vscode-extension-v0.1.1.vsix"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 2311638,
       "digest": "sha256:ff9cecc999c0994f60e28491244b213a5b5af900d2e527153f2149e98c1fbfcc",
-      "download_count": 3,
+      "download_count": 4,
       "created_at": "2026-08-23T19:42:15Z",
       "updated_at": "2026-08-23T19:42:15Z",
       "browser_download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_armhf.deb"
