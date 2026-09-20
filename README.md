@@ -4,7 +4,7 @@
 
 A statically typed programming language for scientific computations with first class support for physical dimensions and units
 
-![numbat](https://repo.x-cmd.io/numbat.svg)
+[![x-cmd/install — numbat Code Quality Monitoring Repo Card](https://repo.x-cmd.io/numbat.svg)](https://x-cmd.com/install/numbat)
 
 ## Install
 
@@ -38,22 +38,22 @@ Total: **31,374** lines of code across **109** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,688 · **Forks**: 116 · **Open issues**: 430 · **Contributors**: 49
+- **Stars**: 2,687 · **Forks**: 116 · **Open issues**: 430 · **Contributors**: 49
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 362 · **Open PRs**: 36 · **Closed issues**: 343 · **Open issues**: 87 · **Commits**: 2208
+- **Releases**: 23 · **Merged PRs**: 362 · **Open PRs**: 42 · **Closed issues**: 343 · **Open issues**: 87 · **Commits**: 2208
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 2 | 18 | 0 | 0 | 6 |
-| last60d | 2026-07-20 | 1 | 4 | 18 | 2 | 0 | 8 |
-| 90d | 2026-06-20 | 1 | 6 | 18 | 5 | 0 | 10 |
-| last180d | 2026-03-22 | 1 | 7 | 20 | 8 | 5 | 12 |
-| 360d | 2025-09-23 | 8 | 62 | 27 | 26 | 12 | 191 |
-| last720d | 2024-09-28 | 11 | 138 | 32 | 74 | 32 | 493 |
+| 30d | 2026-08-21 | 1 | 2 | 24 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 1 | 4 | 24 | 2 | 0 | 8 |
+| 90d | 2026-06-22 | 1 | 6 | 24 | 5 | 0 | 10 |
+| last180d | 2026-03-24 | 1 | 7 | 26 | 8 | 4 | 12 |
+| 360d | 2025-09-25 | 8 | 62 | 33 | 26 | 12 | 191 |
+| last720d | 2024-09-30 | 11 | 138 | 37 | 70 | 32 | 471 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:17:44Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:21:39Z._
