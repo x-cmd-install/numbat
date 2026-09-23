@@ -4,7 +4,7 @@
 
 A statically typed programming language for scientific computations with first class support for physical dimensions and units
 
-[![x-cmd/install — numbat Code Quality Monitoring Repo Card](https://repo.x-cmd.io/numbat.svg)](https://x-cmd.com/install/numbat)
+[![x-cmd/install — numbat Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/numbat.svg)](https://x-cmd.com/install/numbat)
 
 ## Install
 
@@ -38,7 +38,7 @@ Total: **31,374** lines of code across **109** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,689 · **Forks**: 115 · **Open issues**: 430 · **Contributors**: 49
+- **Stars**: 2,690 · **Forks**: 115 · **Open issues**: 430 · **Contributors**: 49
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **31,374** lines of code across **109** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 1 | 25 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 1 | 4 | 25 | 2 | 0 | 8 |
-| 90d | 2026-06-24 | 1 | 6 | 25 | 5 | 0 | 10 |
-| last180d | 2026-03-26 | 1 | 7 | 27 | 8 | 4 | 12 |
-| 360d | 2025-09-27 | 8 | 62 | 34 | 26 | 12 | 191 |
-| last720d | 2024-10-02 | 11 | 134 | 38 | 69 | 32 | 470 |
+| 30d | 2026-08-24 | 0 | 1 | 24 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 1 | 4 | 25 | 2 | 0 | 8 |
+| 90d | 2026-06-25 | 1 | 6 | 25 | 5 | 0 | 10 |
+| last180d | 2026-03-27 | 1 | 7 | 27 | 8 | 4 | 12 |
+| 360d | 2025-09-28 | 8 | 62 | 34 | 26 | 12 | 191 |
+| last720d | 2024-10-03 | 11 | 133 | 38 | 69 | 32 | 462 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:28:08Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:22:22Z._
