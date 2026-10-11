@@ -14,15 +14,15 @@ x install numbat
 
 ## Code insight
 
-Total: **31,374** lines of code across **109** files in the top 5 languages.
+Total: **31,853** lines of code across **113** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Rust | 26,508 | 689 | 3,409 | 92 |
 | Json | 2,721 | 0 | 0 | 4 |
-| Css | 404 | 37 | 102 | 4 |
-| Python | 397 | 25 | 62 | 2 |
-| JavaScript | 391 | 67 | 66 | 7 |
+| JavaScript | 541 | 75 | 97 | 9 |
+| Css | 536 | 38 | 134 | 5 |
+| Html | 437 | 1 | 38 | 3 |
 
 ## Source
 
@@ -33,27 +33,27 @@ Total: **31,374** lines of code across **109** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.24.0` (2026-08-23)
-- **Last commit**: 2026-08-25
+- **Last commit**: 2026-10-10
 - **Assets in release**: 21
 
 ## Popularity
 
-- **Stars**: 2,753 · **Forks**: 120 · **Open issues**: 431 · **Contributors**: 49
+- **Stars**: 2,756 · **Forks**: 120 · **Open issues**: 431 · **Contributors**: 49
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 362 · **Open PRs**: 43 · **Closed issues**: 343 · **Open issues**: 88 · **Commits**: 2208
+- **Releases**: 23 · **Merged PRs**: 362 · **Open PRs**: 43 · **Closed issues**: 343 · **Open issues**: 88 · **Commits**: 2209
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 0 | 0 | 22 | 0 | 1 | 0 |
-| last60d | 2026-08-11 | 1 | 2 | 25 | 0 | 1 | 6 |
-| 90d | 2026-07-12 | 1 | 4 | 25 | 3 | 1 | 8 |
-| last180d | 2026-04-13 | 1 | 6 | 27 | 7 | 5 | 10 |
-| 360d | 2025-10-15 | 8 | 58 | 34 | 26 | 12 | 176 |
-| last720d | 2024-10-20 | 10 | 118 | 38 | 63 | 27 | 398 |
+| 30d | 2026-09-11 | 0 | 0 | 21 | 0 | 1 | 1 |
+| last60d | 2026-08-12 | 1 | 2 | 25 | 0 | 1 | 7 |
+| 90d | 2026-07-13 | 1 | 4 | 25 | 2 | 1 | 9 |
+| last180d | 2026-04-14 | 1 | 6 | 27 | 7 | 5 | 11 |
+| 360d | 2025-10-16 | 8 | 58 | 34 | 26 | 12 | 177 |
+| last720d | 2024-10-21 | 10 | 118 | 38 | 63 | 25 | 398 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T06:09:02Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T06:08:52Z._
