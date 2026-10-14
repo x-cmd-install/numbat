@@ -38,7 +38,7 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,759 · **Forks**: 120 · **Open issues**: 431 · **Contributors**: 49
+- **Stars**: 2,761 · **Forks**: 120 · **Open issues**: 431 · **Contributors**: 49
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 21 | 0 | 1 | 4 |
-| last60d | 2026-08-14 | 1 | 2 | 25 | 0 | 1 | 10 |
-| 90d | 2026-07-15 | 1 | 4 | 25 | 2 | 1 | 12 |
-| last180d | 2026-04-16 | 1 | 6 | 27 | 7 | 4 | 14 |
-| 360d | 2025-10-18 | 8 | 58 | 34 | 26 | 12 | 177 |
-| last720d | 2024-10-23 | 10 | 118 | 38 | 62 | 25 | 401 |
+| 30d | 2026-09-14 | 0 | 0 | 21 | 0 | 1 | 4 |
+| last60d | 2026-08-15 | 1 | 2 | 25 | 0 | 1 | 10 |
+| 90d | 2026-07-16 | 1 | 4 | 25 | 2 | 1 | 12 |
+| last180d | 2026-04-17 | 1 | 6 | 27 | 7 | 4 | 14 |
+| 360d | 2025-10-19 | 8 | 57 | 34 | 26 | 12 | 177 |
+| last720d | 2024-10-24 | 10 | 118 | 38 | 62 | 24 | 396 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:17:26Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:17:06Z._
