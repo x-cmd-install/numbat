@@ -1,3 +1,17 @@
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.11.0
+  origversion: 1.11.0-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - math
 - repo: alpine_edge
   subrepo: testing
   srcname: numbat
@@ -36,6 +50,20 @@
   licenses:
     - MIT
     - Apache-2.0
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.11.0
+  origversion: 1.11.0-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
 - repo: aur
   srcname: numbat-git
   binname: numbat-git
@@ -112,20 +140,6 @@
   binnames:
     - numbat
   visiblename: rust-numbat-cli
-  version: 1.11.0
-  origversion: 1.11.0-5
-  status: legacy
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
   version: 1.24.0
   origversion: 1.24.0-1
   status: newest
@@ -174,22 +188,6 @@
     - maytha8thedev@gmail.com
   categories:
     - misc
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: numbat
-  binnames:
-    - numbat
-    - numbat-debuginfo
-    - numbat-debugsource
-  visiblename: numbat
-  version: 1.23.0
-  origversion: 1.23.0-1.2
-  status: outdated
-  summary: Statically typed programming language for scientific computations
-  licenses:
-    - Apache-2.0 OR MIT
-  categories:
-    - Productivity/Scientific/Physics
 - repo: freebsd
   srcname: lang/numbat
   binname: numbat
@@ -217,6 +215,20 @@
   status: rolling
   summary: Statically typed programming language for scientific computations
 - repo: kali_rolling
+  subrepo: main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.11.0
+  origversion: 1.11.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
   subrepo: main
   srcname: rust-numbat-cli
   binnames:
@@ -359,7 +371,8 @@
   licenses:
     - Apache-2.0
     - MIT
-- repo: opensuse_science_tumbleweed
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
   srcname: numbat
   binnames:
     - numbat
@@ -367,7 +380,7 @@
     - numbat-debugsource
   visiblename: numbat
   version: 1.23.0
-  origversion: 1.23.0-12.11
+  origversion: 1.23.0-1.2
   status: outdated
   summary: Statically typed programming language for scientific computations
   licenses:
@@ -423,48 +436,6 @@
   visiblename: rust-numbat-cli
   version: 1.11.0
   origversion: 1.11.0-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
-  version: 1.11.0
-  origversion: 1.11.0-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - math
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
-  version: 1.11.0
-  origversion: 1.11.0-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
-  version: 1.11.0
-  origversion: 1.11.0-5
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
