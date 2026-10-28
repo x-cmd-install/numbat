@@ -48,12 +48,12 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 1 | 0 | 1 | 4 |
-| last60d | 2026-08-28 | 0 | 0 | 24 | 0 | 1 | 4 |
-| 90d | 2026-07-29 | 1 | 4 | 26 | 2 | 1 | 11 |
-| last180d | 2026-04-30 | 1 | 6 | 26 | 6 | 2 | 14 |
-| 360d | 2025-11-01 | 8 | 56 | 34 | 25 | 11 | 177 |
-| last720d | 2024-11-06 | 10 | 106 | 39 | 59 | 22 | 359 |
+| 30d | 2026-09-28 | 0 | 0 | 1 | 0 | 1 | 4 |
+| last60d | 2026-08-29 | 0 | 0 | 24 | 0 | 1 | 4 |
+| 90d | 2026-07-30 | 1 | 4 | 26 | 2 | 1 | 11 |
+| last180d | 2026-05-01 | 1 | 6 | 26 | 6 | 2 | 14 |
+| 360d | 2025-11-02 | 8 | 56 | 34 | 25 | 11 | 177 |
+| last720d | 2024-11-07 | 10 | 106 | 39 | 59 | 22 | 359 |
 
 ## Release assets
 
@@ -83,12 +83,12 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **45** distros on [repology.org](https://repology.org/project/numbat). **22** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
+Reported by **45** distros on [repology.org](https://repology.org/project/numbat). **23** are ✅ on the latest upstream release, **20** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `1.24.0` | ✅ latest |
-| Debian 14 | `1.11.0` | ⚠️ outdated |
+| Debian 14 | `1.24.0` | ✅ latest |
 | Debian 13 | `1.11.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.11.0` | ⚠️ outdated |
 | Arch | `1.24.0` | ✅ latest |
@@ -107,4 +107,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:26:36Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T06:10:35Z._
