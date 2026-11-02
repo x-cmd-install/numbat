@@ -38,7 +38,7 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,823 · **Forks**: 122 · **Open issues**: 432 · **Contributors**: 49
+- **Stars**: 2,823 · **Forks**: 121 · **Open issues**: 432 · **Contributors**: 49
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 0 | 1 | 0 | 2 | 4 |
-| last60d | 2026-09-02 | 0 | 0 | 24 | 0 | 2 | 4 |
-| 90d | 2026-08-03 | 1 | 3 | 26 | 2 | 2 | 10 |
-| last180d | 2026-05-05 | 1 | 6 | 26 | 6 | 3 | 14 |
-| 360d | 2025-11-06 | 8 | 56 | 34 | 25 | 12 | 177 |
-| last720d | 2024-11-11 | 10 | 105 | 39 | 58 | 23 | 352 |
+| 30d | 2026-10-03 | 0 | 0 | 1 | 0 | 2 | 4 |
+| last60d | 2026-09-03 | 0 | 0 | 24 | 0 | 2 | 4 |
+| 90d | 2026-08-04 | 1 | 3 | 26 | 2 | 2 | 10 |
+| last180d | 2026-05-06 | 1 | 6 | 26 | 6 | 3 | 14 |
+| 360d | 2025-11-07 | 8 | 56 | 34 | 25 | 12 | 177 |
+| last720d | 2024-11-12 | 10 | 105 | 39 | 58 | 23 | 351 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **45** distros on [repology.org](https://repology.org/project/numbat). **25** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
+Reported by **43** distros on [repology.org](https://repology.org/project/numbat). **23** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **45** distros on [repology.org](https://repology.org/project/numbat
 | Debian 13 | `1.11.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.11.0` | ⚠️ outdated |
 | Arch | `1.24.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.24.0` | ✅ latest |
 | Nix unstable | `1.24.0` | ✅ latest |
 | Void | `1.24.0` | ✅ latest |
 | Alpine edge | `1.24.0` | ✅ latest |
@@ -107,4 +107,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:29:44Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:30:14Z._
