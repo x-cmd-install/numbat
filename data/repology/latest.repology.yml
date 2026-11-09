@@ -1,28 +1,17 @@
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: numbat
-  binname: numbat
-  visiblename: numbat
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
   version: 1.24.0
   origversion: 1.24.0-1
   status: newest
-  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units
-  licenses:
-    - MIT
-    - Apache-2.0
-- repo: nix_stable_24_05
-  srcname: numbat
-  visiblename: numbat
-  version: 1.11.0
-  origversion: null
-  status: outdated
-  summary: High precision scientific calculator with full support for physical units
   maintainers:
-    - giomf@mailbox.org
-    - nixpkgs@mail.atemu.net
-  licenses:
-    - Apache-2.0
-    - MIT
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: numbat
@@ -49,6 +38,13 @@
     - folliekazetani@protonmail.com
   licenses:
     - Apache-2.0
+- repo: homebrew
+  srcname: numbat
+  visiblename: numbat
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Statically typed programming language for scientific computations
 - repo: altsisyphus
   srcname: numbat
   binnames:
@@ -100,19 +96,6 @@
   summary: High-precision scientific calculator
   licenses:
     - MIT OR Apache-2.0
-- repo: nix_stable_24_11
-  srcname: numbat
-  visiblename: numbat
-  version: 1.14.0
-  origversion: null
-  status: outdated
-  summary: High precision scientific calculator with full support for physical units
-  maintainers:
-    - giomf@mailbox.org
-    - nixpkgs@mail.atemu.net
-  licenses:
-    - Apache-2.0
-    - MIT
 - repo: chimera
   subrepo: user
   srcname: numbat
@@ -232,27 +215,6 @@
   origversion: null
   status: newest
   summary: Statically typed programming language for scientific computations
-- repo: homebrew
-  srcname: numbat
-  visiblename: numbat
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Statically typed programming language for scientific computations
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
 - repo: macports
   srcname: math/numbat
   binname: numbat
@@ -292,6 +254,44 @@
   licenses:
     - MIT
     - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: numbat
+  binname: numbat
+  visiblename: numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: nix_stable_24_05
+  srcname: numbat
+  visiblename: numbat
+  version: 1.11.0
+  origversion: null
+  status: outdated
+  summary: High precision scientific calculator with full support for physical units
+  maintainers:
+    - giomf@mailbox.org
+    - nixpkgs@mail.atemu.net
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_24_11
+  srcname: numbat
+  visiblename: numbat
+  version: 1.14.0
+  origversion: null
+  status: outdated
+  summary: High precision scientific calculator with full support for physical units
+  maintainers:
+    - giomf@mailbox.org
+    - nixpkgs@mail.atemu.net
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: nix_stable_25_05
   srcname: numbat
   visiblename: numbat
@@ -584,6 +584,20 @@
   version: 1.11.0
   origversion: 1.11.0-5
   status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
