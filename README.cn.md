@@ -38,7 +38,7 @@ x install numbat
 
 ## 流行度
 
-- **Star**: 2,838 · **Fork**: 122 · **开放 issue**: 432 · **贡献者**: 49
+- **Star**: 2,840 · **Fork**: 122 · **开放 issue**: 432 · **贡献者**: 49
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install numbat
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-09-13 | 0 | 0 | 22 | 0 | 2 | 4 |
-| 90d | 2026-08-14 | 1 | 2 | 26 | 0 | 2 | 10 |
-| last180d | 2026-05-16 | 1 | 6 | 26 | 6 | 3 | 14 |
-| 360d | 2025-11-17 | 8 | 56 | 33 | 25 | 12 | 177 |
-| last720d | 2024-11-22 | 10 | 102 | 38 | 58 | 22 | 338 |
+| 30d | 2026-10-14 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-09-14 | 0 | 0 | 22 | 0 | 2 | 4 |
+| 90d | 2026-08-15 | 1 | 2 | 26 | 0 | 2 | 10 |
+| last180d | 2026-05-17 | 1 | 6 | 26 | 6 | 3 | 14 |
+| 360d | 2025-11-18 | 8 | 56 | 33 | 25 | 12 | 177 |
+| last720d | 2024-11-23 | 10 | 102 | 38 | 58 | 22 | 336 |
 
 ## Release 资产
 
@@ -83,7 +83,7 @@ x install numbat
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/numbat) 上共有 **48** 个发行版报告此项目。**27** 个 ✅ 已是最新上游版本，**19** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/numbat) 上共有 **67** 个发行版报告此项目。**34** 个 ✅ 已是最新上游版本，**31** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -92,7 +92,7 @@ x install numbat
 | Debian 13 | `1.11.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.11.0` | ⚠️ outdated |
 | Arch | `1.24.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.24.0` | ✅ latest |
 | Nix unstable | `1.24.0` | ✅ latest |
 | Void | `1.24.0` | ✅ latest |
 | Alpine edge | `1.24.0` | ✅ latest |
@@ -107,4 +107,4 @@ numbat 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261112.yml` · 2026-11-12T07:52:28Z._
+_数据快照: `data/card/261113.yml` · 2026-11-13T07:16:02Z._
