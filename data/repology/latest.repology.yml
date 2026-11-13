@@ -1,9 +1,9 @@
 - repo: kali_rolling
   subrepo: main
-  srcname: rust-numbat-cli
+  srcname: rust-numbat
   binnames:
-    - numbat
-  visiblename: rust-numbat-cli
+    - librust-numbat-dev
+  visiblename: rust-numbat
   version: 1.24.0
   origversion: 1.24.0-1
   status: newest
@@ -38,13 +38,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - Apache-2.0
-- repo: homebrew
-  srcname: numbat
-  visiblename: numbat
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Statically typed programming language for scientific computations
 - repo: altsisyphus
   srcname: numbat
   binnames:
@@ -108,12 +101,47 @@
   licenses:
     - MIT OR Apache-2.0
 - repo: crates_io
+  srcname: numbat
+  visiblename: numbat
+  version: 1.24.0
+  origversion: null
+  status: newest
+  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units.
+- repo: crates_io
   srcname: numbat-cli
   visiblename: numbat-cli
   version: 1.24.0
   origversion: null
   status: newest
   summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units.
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.11.0
+  origversion: 1.11.0-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
 - repo: debian_13
   subrepo: trixie/main
   srcname: rust-numbat-cli
@@ -130,10 +158,38 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
   srcname: rust-numbat-cli
   binnames:
     - numbat
   visiblename: rust-numbat-cli
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
   version: 1.24.0
   origversion: 1.24.0-1
   status: newest
@@ -158,12 +214,40 @@
     - misc
 - repo: deepin_23
   subrepo: main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: deepin_23
+  subrepo: main
   srcname: rust-numbat-cli
   binnames:
     - numbat
   visiblename: rust-numbat-cli
   version: 1.11.0
   origversion: 1.11.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -182,6 +266,20 @@
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: rust-numbat-cli
@@ -215,6 +313,27 @@
   origversion: null
   status: newest
   summary: Statically typed programming language for scientific computations
+- repo: homebrew
+  srcname: numbat
+  visiblename: numbat
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Statically typed programming language for scientific computations
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
 - repo: macports
   srcname: math/numbat
   binname: numbat
@@ -388,6 +507,34 @@
     - MIT
     - Apache-2.0
 - repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: parrot
   subrepo: parrot/main
   srcname: rust-numbat-cli
   binnames:
@@ -401,20 +548,20 @@
     - maytha8thedev@gmail.com
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-numbat-cli
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rust-numbat
   binnames:
-    - numbat
-  visiblename: rust-numbat-cli
+    - librust-numbat-dev
+  visiblename: rust-numbat
   version: 1.11.0
-  origversion: 1.11.0-3
+  origversion: 1.11.0-2
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
   categories:
-    - misc
+    - rust
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rust-numbat-cli
@@ -431,6 +578,20 @@
     - math
 - repo: raspbian_stable
   subrepo: main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
   srcname: rust-numbat-cli
   binnames:
     - numbat
@@ -438,6 +599,20 @@
   version: 1.11.0
   origversion: 1.11.0-3
   status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
@@ -521,10 +696,38 @@
     - gouranga.das.khulna@gmail.com
 - repo: ubuntu_25_04
   subrepo: plucky/universe
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: rust-numbat-cli
   binnames:
     - numbat
   visiblename: rust-numbat-cli
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
   version: 1.11.0
   origversion: 1.11.0-2
   status: outdated
@@ -549,12 +752,40 @@
     - universe/misc
 - repo: ubuntu_26_04
   subrepo: resolute/universe
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-6
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
   srcname: rust-numbat-cli
   binnames:
     - numbat
   visiblename: rust-numbat-cli
   version: 1.11.0
   origversion: 1.11.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-6
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -577,6 +808,20 @@
     - universe/misc
 - repo: ubuntu_27_04
   subrepo: tenacious/universe
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-6
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: rust-numbat-cli
   binnames:
     - numbat
@@ -584,6 +829,20 @@
   version: 1.11.0
   origversion: 1.11.0-5
   status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
