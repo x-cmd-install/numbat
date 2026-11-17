@@ -1,3 +1,97 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: numbat
+  binname: numbat
+  visiblename: numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: numbat
+  binname: numbat
+  visiblename: numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.11.0
+  origversion: 1.11.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-numbat-cli
+  binnames:
+    - numbat
+  visiblename: rust-numbat-cli
+  version: 1.11.0
+  origversion: 1.11.0-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: rust-numbat
+  binnames:
+    - librust-numbat-dev
+  visiblename: rust-numbat
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - maytha8thedev@gmail.com
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: numbat
@@ -123,20 +217,6 @@
   version: 1.11.0
   origversion: 1.11.0-3
   status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: rust-numbat
-  binnames:
-    - librust-numbat-dev
-  visiblename: rust-numbat
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
@@ -347,30 +427,6 @@
   licenses:
     - MIT
     - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: numbat
-  binname: numbat
-  visiblename: numbat
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
-  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units
-  licenses:
-    - MIT
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: numbat
-  binname: numbat
-  visiblename: numbat
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
-  summary: A statically typed programming language for scientific computations with first class support for physical dimensions and units
-  licenses:
-    - MIT
-    - Apache-2.0
 - repo: nix_stable_24_05
   srcname: numbat
   visiblename: numbat
@@ -508,7 +564,7 @@
     - MIT
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-numbat
   binnames:
     - librust-numbat-dev
@@ -522,7 +578,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-numbat-cli
   binnames:
     - numbat
@@ -536,7 +592,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-numbat
   binnames:
     - librust-numbat-dev
@@ -550,7 +606,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-numbat-cli
   binnames:
     - numbat
@@ -591,62 +647,6 @@
     - maytha8thedev@gmail.com
   categories:
     - math
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-numbat
-  binnames:
-    - librust-numbat-dev
-  visiblename: rust-numbat
-  version: 1.11.0
-  origversion: 1.11.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
-  version: 1.11.0
-  origversion: 1.11.0-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-numbat
-  binnames:
-    - librust-numbat-dev
-  visiblename: rust-numbat
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-numbat-cli
-  binnames:
-    - numbat
-  visiblename: rust-numbat-cli
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: numbat
@@ -827,9 +827,9 @@
   binnames:
     - librust-numbat-dev
   visiblename: rust-numbat
-  version: 1.11.0
-  origversion: 1.11.0-6
-  status: legacy
+  version: 1.24.0
+  origversion: 1.24.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - maytha8thedev@gmail.com
@@ -841,20 +841,6 @@
   binnames:
     - numbat
   visiblename: rust-numbat-cli
-  version: 1.24.0
-  origversion: 1.24.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - maytha8thedev@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: rust-numbat
-  binnames:
-    - librust-numbat-dev
-  visiblename: rust-numbat
   version: 1.24.0
   origversion: 1.24.0-1
   status: newest
