@@ -38,7 +38,7 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,842 · **Forks**: 125 · **Open issues**: 432 · **Contributors**: 49
+- **Stars**: 2,843 · **Forks**: 126 · **Open issues**: 432 · **Contributors**: 49
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-09-17 | 0 | 0 | 11 | 0 | 2 | 4 |
-| 90d | 2026-08-18 | 1 | 2 | 28 | 0 | 2 | 5 |
-| last180d | 2026-05-20 | 1 | 6 | 28 | 6 | 3 | 14 |
-| 360d | 2025-11-21 | 8 | 56 | 35 | 24 | 12 | 176 |
-| last720d | 2024-11-26 | 10 | 101 | 40 | 58 | 22 | 331 |
+| 30d | 2026-10-18 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-09-18 | 0 | 0 | 11 | 0 | 2 | 4 |
+| 90d | 2026-08-19 | 1 | 2 | 28 | 0 | 2 | 5 |
+| last180d | 2026-05-21 | 1 | 6 | 28 | 6 | 3 | 14 |
+| 360d | 2025-11-22 | 8 | 56 | 35 | 24 | 12 | 176 |
+| last720d | 2024-11-27 | 10 | 101 | 40 | 58 | 22 | 330 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **67** distros on [repology.org](https://repology.org/project/numbat). **34** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
+Reported by **66** distros on [repology.org](https://repology.org/project/numbat). **34** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:08:03Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:18:44Z._
