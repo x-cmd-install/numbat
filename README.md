@@ -38,7 +38,7 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,848 · **Forks**: 127 · **Open issues**: 432 · **Contributors**: 49
+- **Stars**: 2,850 · **Forks**: 127 · **Open issues**: 432 · **Contributors**: 49
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 4 | 0 | 1 | 0 |
-| last60d | 2026-09-26 | 0 | 0 | 5 | 0 | 2 | 4 |
-| 90d | 2026-08-27 | 0 | 0 | 28 | 0 | 2 | 4 |
-| last180d | 2026-05-29 | 1 | 6 | 30 | 6 | 3 | 14 |
-| 360d | 2025-11-30 | 8 | 55 | 37 | 24 | 12 | 176 |
-| last720d | 2024-12-05 | 10 | 100 | 42 | 57 | 21 | 330 |
+| 30d | 2026-10-27 | 0 | 0 | 4 | 0 | 1 | 0 |
+| last60d | 2026-09-27 | 0 | 0 | 5 | 0 | 2 | 4 |
+| 90d | 2026-08-28 | 0 | 0 | 28 | 0 | 2 | 4 |
+| last180d | 2026-05-30 | 1 | 6 | 30 | 6 | 3 | 14 |
+| 360d | 2025-12-01 | 8 | 55 | 37 | 24 | 12 | 176 |
+| last720d | 2024-12-06 | 10 | 100 | 42 | 57 | 21 | 330 |
 
 ## Release assets
 
@@ -81,23 +81,6 @@ Total: **31,822** lines of code across **113** files in the top 5 languages.
 | [numbat_1.24.0_armhf.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_armhf.deb) | 2.2 MiB | `runtime/deb/armhf` |
 | [numbat_1.24.0_i686.deb](https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat_1.24.0_i686.deb) | 2.3 MiB | `other` |
 
-## Distribution status
-
-Reported by **66** distros on [repology.org](https://repology.org/project/numbat). **35** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.24.0` | ✅ latest |
-| Debian 14 | `1.24.0` | ✅ latest |
-| Debian 13 | `1.11.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.11.0` | ⚠️ outdated |
-| Arch | `1.24.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Nix unstable | `1.24.0` | ✅ latest |
-| Void | `1.24.0` | ✅ latest |
-| Alpine edge | `1.24.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.23.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `numbat` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +90,4 @@ Install metadata for numbat lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T09:07:22Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T09:13:44Z._
